@@ -1,7 +1,37 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
 div {
     height: 100px; 
     background-color: black;
 }
+
 .title{
     font-family: 'Comic Sans MS';
+}
+
+.outlined {
+    border: solid;
+    justify-content: center;
+}
+
+.text-rainbow-animation {
+    font-family:'Comic Sans MS' black;
+    font-size:80px;
+    background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 60s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
 }
