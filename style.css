@@ -20,7 +20,9 @@ div {
 }
 
 .text-rainbow-animation {
-    font-family:'Comic Sans MS' black;
+    width: fit-content;
+    height: fit-content;
+    font-family:'Comic Sans MS';
     font-size:80px;
     background-image: 
     linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
