@@ -1,5 +1,6 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
     height: 100vh;
@@ -16,14 +17,13 @@ div {
 
 .outlined {
     border: solid;
-    justify-content: center;
 }
 
 .text-rainbow-animation {
     width: fit-content;
     height: fit-content;
     font-family:'Comic Sans MS';
-    font-size:80px;
+    font-size:40px;
     background-image: 
     linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
     -webkit-background-clip: text;
