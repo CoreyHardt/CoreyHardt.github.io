@@ -1,14 +1,9 @@
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    height: 100vh;
+
 }
 
 div {
     height: 100px; 
-    background-color: black;
 }
 
 .title{
@@ -34,6 +29,28 @@ div {
 
 @keyframes rainbow-animation {
     to {
-        background-position: 4500vh;
+        background-position: 3000px;
     }
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    padding: 1em;
+    display: inline-block;
+}
+.btn:hover{
+    background-color:darkorange;
+}
+.btn:active{
+    
+}
+.btn:focus{
+    
 }
